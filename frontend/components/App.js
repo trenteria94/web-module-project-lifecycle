@@ -58,7 +58,7 @@ export default class App extends React.Component {
           })
         })
       })
-      .catch(this.axiosErrorGiven())
+      .catch(this.axiosErrorGiven)
   }
 
   toggleDisplayedCompleted = () => {
